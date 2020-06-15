@@ -3,7 +3,7 @@ package com.fs.lambdas;
 @FunctionalInterface
 interface Display {
 
-	public void show();
+	public String show();
 }
 
 public class LambdaFunction {
@@ -12,6 +12,8 @@ public class LambdaFunction {
 
 		Display display = () -> {
 			System.out.println("Hello Lambda Test");
+
+			return "Capgemini";
 
 		};
 
