@@ -11,8 +11,7 @@ public class ArraySteams {
 
 		System.out.println("Sum is " + IntStream.of(a).sum());
 
-		IntStream stream = Arrays.stream(a);
-		stream.forEach(str -> System.out.print(str + " "));
+		Arrays.stream(a).forEach(str -> System.out.print(str + " "));
 
 	}
 }
