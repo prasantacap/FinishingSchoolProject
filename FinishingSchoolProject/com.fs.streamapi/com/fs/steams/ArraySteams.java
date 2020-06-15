@@ -18,10 +18,6 @@ public class ArraySteams {
 		// Each element print
 		Arrays.stream(a).forEach(str -> System.out.print(str + " "));
 
-		// 2D Array
-		Integer[][] arrStr = new Integer[3][4];
-		Arrays.stream(arrStr).forEach(str -> System.out.println(str.toString() + ""));
-
 		// Array to List
 		int numbers[] = { 1, 2, 3, 4, 5 };
 		// 1st approach
